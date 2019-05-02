@@ -1,0 +1,32 @@
+[{
+    "ID": "001",
+   "CorporateName": "Corporate1",
+    "TrainersReq": "2",
+    "Numberofstudents": "15",
+    "COntactNumber":"8904356789",
+    "Ratings": "5"
+},
+{
+    "ID": "002",
+    "CorporateName": "Corporate2",
+    "TrainersReq": "2",
+    "Numberofstudents": "15",
+    "COntactNumber":"8904356789",
+    "Ratings":"4"
+},
+{
+    "ID": "003",
+    "CorporateName": "Corporate3",
+    "TrainersReq": "2",
+    "Numberofstudents": "15",
+    "COntactNumber":"8904356789",
+    "Ratings":"4"
+},
+{
+    "ID": "004",
+    "CorporateName": "Corporate4",
+    "TrainersReq": "2",
+    "Numberofstudents": "15",
+    "COntactNumber":"8904356789",
+    "Ratings":"4"
+}]

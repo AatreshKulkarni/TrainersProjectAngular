@@ -1,0 +1,28 @@
+[{
+    "ID": "001",
+   "Name": "trainer1",
+    "SkillSet": "c#,.net,Web Api",
+    "Experience": "3 yrs",
+    "COntactNumber":"8904356789"
+},
+{
+    "ID": "002",
+   "Name": "trainer2",
+    "SkillSet": "Angular6, Nodejs",
+    "Experience": "4 yrs",
+    "COntactNumber":"8904356789"
+},
+{
+    "ID": "003",
+   "Name": "trainer3",
+    "SkillSet": "Mysql",
+    "Experience": "5 yrs",
+    "COntactNumber":"8904356789"
+},
+{
+    "ID": "004",
+   "Name": "trainer4",
+    "SkillSet": "Angular6, Nodejs",
+    "Experience": "4 yrs",
+    "COntactNumber":"8904356789"
+}]

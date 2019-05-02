@@ -1,0 +1,29 @@
+<div class="card">
+  <div class="card-header">
+      <button class="btn-primary pull-right">Add</button>
+          {{ title }}
+  </div>
+      <div class="card-body">
+              <table *ngIf="corporates" class="table table-hover">
+                  <!-- ADD HEADERS -->
+                  <tr>
+                      <th>ID</th>
+                          <th>Company Name</th>
+                              <th>Trainers Required</th>
+                              <th>Number Of Students</th>
+                              <th>Contact Number</th>
+          
+                  </tr>
+          
+                  <!-- BIND ARRAY TO TABLE -->
+                  <tr *ngFor="let corp of corporates">
+                      <td>{{corp.ID}}</td>
+                          <td>{{corp.CorporateName}}</td>
+                              <td>{{corp.TrainersReq}}</td>
+                              <td>{{corp.Numberofstudents}}</td>
+                              <td>{{corp.COntactNumber}}</td>
+                  </tr>
+              </table>
+          </div>
+</div>
+

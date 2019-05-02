@@ -1,0 +1,54 @@
+<div class="card">
+    <div class="card-header">
+
+        <button type="button" class="btn btn-primary pull-right" (click)="openCreate()">Add</button>
+            {{ title }}
+            
+    </div>
+        <div class="card-body">
+                <div>
+  
+                        <div class="pull-right">	
+                              <div class="row">
+                                <div class="col-xs-6 col-lg-8">
+                                    <div class="left"></div>
+                                </div>
+                                  <div>
+                                        <div class="input-group">
+                                             <input  type="text" class="form-control" [(ngModel)]="searchText" autocomplete="off"  placeholder="Search" id="txtSearch">
+                                             <div class="input-group-btn">
+                                             </div>
+                                         </div>
+                                  </div>
+                                </div>
+                        </div>
+                      </div>
+                <!-- <div class="row">
+                        <div>Search: 
+                            <input type="text" [(ngModel)]="movieSearch" />
+                        </div>
+                    </div> -->
+                <table *ngIf="trainers" class="table table-hover">
+                    <!-- ADD HEADERS -->
+                    <tr>
+                        <th>ID</th>
+                            <th>Name</th>
+                                <th>Skill Set</th>
+                                <th>Experience</th>
+                                <th>Contact Number</th>
+                                <th>Action</th>
+            
+                    </tr>
+            
+                    <!-- BIND ARRAY TO TABLE -->
+                    <tr *ngFor="let tranr of trainers | grdFilter: {SkillSet: searchText};">
+                        <td>{{tranr.ID}}</td>
+                            <td>{{tranr.Name}}</td>
+                                <td>{{tranr.SkillSet}}</td>
+                                <td>{{tranr.Experience}}</td>
+                                <td>{{tranr.COntactNumber}}</td>
+                                <td><button type="button" class="btn btn-danger">Delete</button></td>
+                    </tr>
+                </table>
+            </div>
+</div>
